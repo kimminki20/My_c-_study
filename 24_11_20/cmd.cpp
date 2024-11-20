@@ -20,6 +20,7 @@ int main(){
  }
  char buffer[51] ={0};
  int len = v[0].size(); //첫번째 행의 열의 개수
+ //size는 함수임 따라서 size()로 사용해야함.
  
 for(int i=0; i<len; i++){ 
     char check = v[0][i];
@@ -31,7 +32,7 @@ for(int i=0; i<len; i++){
             break;
         }
     }
-    if(!isSame){
+    if(!isSame){ //!isSame이기에 T가 되고 값이 다른 것임 따라서 ?로 출력
         buffer[i] = '?';
     }else{
         buffer[i] = check;
