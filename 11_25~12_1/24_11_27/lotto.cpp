@@ -1,3 +1,4 @@
+//백준 6603 로또
 #include <iostream>
 using namespace std;
 
