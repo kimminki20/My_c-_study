@@ -19,7 +19,7 @@ int main(){
                 num = "";
             } // '-'가 없으므로 숫자 더해줌
         else if(check == false){
-            min_aws += stoi(num);
+            min_aws += stoi(num); //글자를 정수로
             num = "";
         }
     } // 기호가 아니라 숫자인 경우
