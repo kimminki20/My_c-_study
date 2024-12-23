@@ -14,7 +14,7 @@ vector<int> result;
 int dfs(int y, int x){
     // 방문처리
 	arr[y][x] = 1;
-    count +1 증가
+    //count +1 증가
 	cnt++;
     // 상하좌우 탐색
 	for (int i = 0; i < 4; i++){
