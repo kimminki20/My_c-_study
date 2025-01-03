@@ -31,6 +31,7 @@ int main() {
 
     // 사전 역순 정렬
     sort(people.begin(), people.end(), greater<string>());
+    //sort(people.begin(),people.end()); 이렇게 하면 순행
 
     // 결과 출력
     for (const string& person : people) {
