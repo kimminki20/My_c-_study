@@ -23,9 +23,7 @@ int main() {
     while (testcase--) {
         int N;
         cin >> N; // 체스판의 크기
-
-        // 배열 초기화
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i < N; i++) {   // 배열 초기화
             fill(vis[i], vis[i] + N, false);
             fill(dist[i], dist[i] + N, 0);
         }
