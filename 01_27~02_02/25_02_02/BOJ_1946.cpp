@@ -1,3 +1,4 @@
+//백준 1946 신입사원 문제
 #include <iostream>
 #include <vector>
 #include <algorithm>
