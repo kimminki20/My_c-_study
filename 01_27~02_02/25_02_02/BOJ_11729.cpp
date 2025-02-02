@@ -11,6 +11,7 @@ void func(int a,int b,int n){
     cout << a << ' ' << b << '\n';
     func(6-a-b,b,n-1);
 }
+
 int main(){
     ios_base::sync_with_stdio(fasle);
     cin.tie(0);
