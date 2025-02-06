@@ -5,7 +5,7 @@
 #include <algorithm>
 using namespace std;
  
-int R, C, max;
+int R, C, ans;
 char arr[20][20];
 int visited[26];	// 알파벳(A to Z)의 방문 체크
 int dy[4] = { 0,1,0,-1 };
@@ -13,8 +13,8 @@ int dx[4] = { 1,0,-1,0 };
 
 void DFS(int y, int x, int num) { // x,y: 좌표, num: 이동한 칸의 개수
 	visited[arr[y][x] - 'A'] = 1;	// 알파벳 방문 체크
-	if (num > max) //max값 설정
-		max = num;
+	if (num > ans) //max값 설정
+		ans = num;
 	for (int dir = 0; dir < 4; dir++) {
 		int ny = y + dy[dir];
 		int nx = x + dx[dir];
@@ -36,6 +36,6 @@ int main() {
 		for (j = 0; j < C; j++)
 			cin >> arr[i][j];
 	DFS(0, 0, 1);	// 시작점 포함이므로 1로 시작
-	cout << max;
+	cout << ans;
 }
  
