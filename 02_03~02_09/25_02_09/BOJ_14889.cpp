@@ -24,7 +24,6 @@ void DFS(int x, int pos) {
         if (min_ability > temp) min_ability = temp;  // 최소 차이 갱신
         return;
     }
-
     // 백트래킹을 사용하여 조합을 생성
     for (int i = pos; i < N; i++) {
         check[i] = true;  // i번째 사람을 스타트 팀에 포함
