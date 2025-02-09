@@ -12,7 +12,10 @@
         "ios": "cpp",
         "__split_buffer": "cpp",
         "deque": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "set": "cpp",
+        "unordered_map": "cpp",
+        "map": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

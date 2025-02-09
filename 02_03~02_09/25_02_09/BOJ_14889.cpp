@@ -1,3 +1,4 @@
+//백준 스타트와 링크
 #include <iostream>
 #include <math.h>  // abs() 함수 사용을 위한 헤더
 #define max 21  // 최대 인원수를 21로 설정
